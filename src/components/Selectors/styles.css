@@ -1,0 +1,26 @@
+.selectors{
+    width: 40%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+select{
+    cursor: pointer;
+    width: 100px;
+}
+
+.filter-btn{
+    padding: 10px 40px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.filter-btn:hover{
+    transition: 0.5s;
+    background-color: #E6A91D;
+    letter-spacing: 3px;
+    box-shadow: 0 0 35px #E6A91D;
+}

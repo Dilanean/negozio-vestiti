@@ -1,0 +1,151 @@
+.footer-menus{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+
+.footer-box{
+    text-align: left;
+}
+
+.footer-box ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer-box ul a{
+    text-decoration: none;
+    color: inherit;
+    margin-top: 10px;
+}
+
+.footer-help-links{
+    position: relative;
+}
+
+.footer-help-links::after{
+    position:absolute;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #E6A91D;
+    bottom: -2px;
+    left: 0;
+    box-shadow: 0 5px 0px #E6A91D;
+}
+
+.footer-help-links:hover::after{
+    transition: 0.8s;
+    width: 100%;
+}
+
+
+.socials-link{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.socials-link span{
+    position: absolute;
+    left: 25px;
+    transition: 0.5s ease;
+}
+
+.socials-link:hover span{
+   left: 35px;
+}
+
+
+.contacts-link{
+    display: flex;
+    align-items: center;
+}
+
+.contacts-link span{
+    margin-left: 10px;
+    position: relative;
+}
+
+.contacts-link span::before{
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    content: "";
+    background-color: #E6A91D;
+    width: 0%;
+    height: 2px;
+    transition: 0.5s ease;
+}
+
+.contacts-link span:hover::before{
+    width: 100%;
+}
+
+.plus{
+    visibility: hidden;
+}
+
+
+.footer-rights{
+    background-color: #E6A91D;  
+    padding: 10px 0;
+}
+
+.footer-rights-content{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.github-icon{
+    color: #000;
+    margin-left: 20px;
+}
+
+.github-icon:hover{
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+@media (max-width: 450px){
+
+    footer{
+        overflow-x: hidden;
+    }
+    .footer-menus{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .footer-box-title{
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .plus{
+        position: absolute;
+        right: 40px;
+        top: 0;
+        visibility: visible;
+    }
+
+    .expand-false{
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .expand-true{
+        transition: 1s ease-out;
+        max-height: 300px;
+       
+    }
+
+}

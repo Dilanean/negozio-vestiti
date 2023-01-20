@@ -1,0 +1,28 @@
+.shop-title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  
+
+
+
+  @media(max-width:860px){
+    .products {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media(max-width:550px){
+    .products {
+      grid-template-columns: 1fr;
+    }
+  }
