@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/negozio-vestiti/static/css/main.9dda6e30.css",
-    "main.js": "/negozio-vestiti/static/js/main.6c036155.js",
+    "main.js": "/negozio-vestiti/static/js/main.f4c76a8d.js",
     "static/media/product-3.jpg": "/negozio-vestiti/static/media/product-3.977250a8820cf87cb62e.jpg",
     "static/media/product-142.jpg": "/negozio-vestiti/static/media/product-142.8ce274cfa79338910d99.jpg",
     "static/media/product-132.jpg": "/negozio-vestiti/static/media/product-132.03d473de7cbbd8aa08a8.jpg",
@@ -150,10 +150,10 @@
     "static/media/logo.png": "/negozio-vestiti/static/media/logo.a65aedd050fd32b0a415.png",
     "index.html": "/negozio-vestiti/index.html",
     "main.9dda6e30.css.map": "/negozio-vestiti/static/css/main.9dda6e30.css.map",
-    "main.6c036155.js.map": "/negozio-vestiti/static/js/main.6c036155.js.map"
+    "main.f4c76a8d.js.map": "/negozio-vestiti/static/js/main.f4c76a8d.js.map"
   },
   "entrypoints": [
     "static/css/main.9dda6e30.css",
-    "static/js/main.6c036155.js"
+    "static/js/main.f4c76a8d.js"
   ]
 }
